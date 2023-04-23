@@ -24,7 +24,7 @@ import "aos/dist/aos.css";
 import Preloader from "../../components/preloader/Preloader";
 
 const Home = () => {
-  const [preloader, setPreloader] = useState<boolean>(true);
+  const [preloader, setPreloader] = useState<boolean>(false);
 
   useEffect(() => {
     setTimeout(() => setPreloader(false), 3020);
